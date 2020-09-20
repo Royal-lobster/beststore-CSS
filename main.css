@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ebebeb;
+  padding-top: 20px;
+}
+
+/* nav starts here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+.branding h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 29px;
+}
+
+.navlinks ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navlinks a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+}
+
+.navlinks a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.navlinks .btn {
+  background: #3267c8;
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+}
+/* hero starts here */
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero__left {
+  max-width: 400px;
+}
+.hero__left h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #000000;
+}
+.hero__left p {
+  margin-top: 20px;
+  font-family: Nunito;
+  font-weight: 300;
+  font-size: 20px;
+
+  color: #000000;
+}
+
+.hero__btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #3267c8;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  margin-top: 36px;
+  font-family: "Nunito", sans-serif;
+}
+
+/* catagories styles */
+.catagories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px 30px;
+}
+
+.catagories h2 {
+  margin-left: 45px;
+  margin-bottom: 30px;
+  font-family: Nunito;
+  font-size: 25px;
+}
+.catagories__cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 17px;
+  width: 240px;
+  height: 240px;
+  position: relative;
+}
+
+.card p {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 45px;
+  color: white;
+}
+
+.card__shoes {
+  background: linear-gradient(
+      180.2deg,
+      rgba(196, 196, 196, 0) 0.17%,
+      rgba(0, 0, 0, 0.658) 70.57%
+    ),
+    url(https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
+      no-repeat center;
+  background-size: cover;
+}
+.card__watches {
+  background: linear-gradient(
+      180.2deg,
+      rgba(196, 196, 196, 0) 0.17%,
+      rgba(0, 0, 0, 0.658) 70.57%
+    ),
+    url(https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=681&q=80)
+      no-repeat center;
+  background-size: cover;
+}
+
+.card__suits {
+  background: linear-gradient(
+      180.2deg,
+      rgba(196, 196, 196, 0) 0.17%,
+      rgba(0, 0, 0, 0.658) 70.57%
+    ),
+    url(https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80)
+      no-repeat center;
+  background-size: cover;
+}
+
+.card__glasses {
+  background: linear-gradient(
+      180.2deg,
+      rgba(196, 196, 196, 0) 0.17%,
+      rgba(0, 0, 0, 0.658) 70.57%
+    ),
+    url(https://images.unsplash.com/photo-1546180245-c59500ad14d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80)
+      no-repeat center;
+  background-size: cover;
+}
+.drone {
+  display: flex;
+  background: #3267c8;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.drone__right {
+  max-width: 480px;
+  color: #ebebeb;
+}
+
+.drone__right h2 {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+.drone__right p {
+  font-family: Nunito;
+  font-weight: 300;
+  font-size: 18px;
+}
+footer {
+  background: #222222;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+footer p {
+  font-size: 18px;
+  font-family: Playfair Display;
+}
+.footer__brand {
+  font-family: Playfair Display SC;
+}
